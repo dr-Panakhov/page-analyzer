@@ -40,7 +40,7 @@ cd page-analyzer
 make install
 
 # 3. Настройка окружения
-Создайте файл .env в корне проекта и добавьте туда секретный ключ и URL вашей локальной базы данных
+# 1. Создайте файл .env в корне проекта и добавьте туда секретный ключ и URL вашей локальной базы данных
 SECRET_KEY=your_secret_key
 DATABASE_URL=postgresql://postgres:postgres@localhost:5432/page_analyzer
 
@@ -50,7 +50,7 @@ psql -a -d postgresql://postgres:postgres@localhost:5432/page_analyzer -f databa
 
 # 2. Запустить сервер для разработки
 make dev
-После запуска приложение будет доступно по адресу: http://localhost:5000
+# 3. После запуска приложение будет доступно по адресу: http://localhost:5000
 
 # 5. Проверка качества кода
 make lint
