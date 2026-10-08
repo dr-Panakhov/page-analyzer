@@ -33,7 +33,7 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone [https://github.com/dr-Panakhov/page-analyzer.git](https://github.com/dr-Panakhov/page-analyzer.git)
+git clone https://github.com/dr-Panakhov/page-analyzer.git
 cd page-analyzer
 
 # 2. Установить зависимости
